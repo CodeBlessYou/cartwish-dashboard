@@ -1,0 +1,23 @@
+<body class="font-montserrat lg:grid lg:grid-cols-[280px_1fr]">
+  <aside
+    id="sidebar"
+    class="w-[280px] h-screen bg-cyan-100 -translate-x-full fixed top-0 left-0 transition-all duration-300 ease-out lg:translate-x-0 lg:sticky"
+  >
+    <svg class="w-5 h-5 lg:hidden" id="closeIcon">
+      <use href="assets/close.svg"></use>
+    </svg>
+    <h1>Sidebar</h1>
+  </aside>
+
+  <main class="w-full h-screen bg-cyan-400">
+    <svg class="w-5 h-5 lg:hidden" id="menuIcon">
+      <use href="assets/menu.svg"></use>
+    </svg>
+    <h1>Dashboard</h1>
+  </main>
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+  <script src="js/line-chart.js"></script>
+  <script src="js/doughnut-chart.js"></script>
+</body>
